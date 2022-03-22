@@ -1,0 +1,23 @@
+{
+  "name": "custom-geo-location-cypress",
+  "version": "1.0.0",
+  "description": "Provide the custom geolocation",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gaikwadamolraj/custom-geo-location-cypress.git"
+  },
+  "keywords": [
+    "custom",
+    "geo-location",
+    "cypress"
+  ],
+  "author": "Amol Gaikwad <gaikwadamolraj@gmail.com> (https://github.com/gaikwadamolraj/custom-geo-location-cypress.git)",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.5.2"
+  }
+}
