@@ -23,20 +23,8 @@ npm run cypress:open
 Go to /cypress/support/commands.js and add below code.
 
 ```sh
-Cypress.Commands.add('visitWithMockGeo', (url, latitude=12.92, longitude= -10.50) => {
-	cy.visit(url, {
-		onBeforeLoad: (window) => {
-			window.navigator.geolocation.getCurrentPosition = (success) => {
-				success({
-					coords: {
-						latitude,
-						longitude: -10.50,
-					}, timestamp: Date.now()
-				});
-			}
-		}
-	})
-})s   
+import {registerCommand} from 'cypress-visit-with-custom-geolocation'
+registerCommand();
 ```
 
 
