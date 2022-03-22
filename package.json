@@ -19,5 +19,8 @@
   "license": "ISC",
   "devDependencies": {
     "cypress": "^9.5.2"
+  },
+  "dependencies": {
+    "cypress-visit-with-custom-geolocation": "^1.0.1"
   }
 }
